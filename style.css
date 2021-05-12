@@ -1,0 +1,121 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 110rem;
+  margin: 15rem auto;
+
+  display: flex;
+}
+
+.item {
+  padding: 5rem;
+  height: 52rem;
+}
+
+.item--1 {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.item--2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.item--3 {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.item__picture {
+  height: 6rem;
+  margin-bottom: 3.5rem;
+}
+
+.item__title {
+  font-size: 5rem;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  margin-bottom: 3.5rem;
+  color: hsl(0, 0%, 95%);
+}
+
+.item__text {
+  font-size: 2rem;
+  font-family: "Lexend Deca", sans-serif;
+  /* font-weight: 400; */
+  line-height: 2.75rem;
+  letter-spacing: 1px;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 10rem;
+}
+
+.btn:link,
+.btn:visited {
+  font-family: "Lexend Deca", sans-serif;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1.5rem 3rem;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 100px;
+  border: hsl(0, 0%, 95%) solid 1px;
+  transition: all 0.2s;
+}
+
+.btn--1 {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn--2 {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn--3 {
+  color: hsl(179, 100%, 13%);
+}
+
+.btn:hover,
+.btn:active {
+  color: hsl(0, 0%, 95%);
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 68.75em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 55em) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media only screen and (max-width: 44.37em) {
+  html {
+    font-size: 35%;
+  }
+}
+
+@media only screen and (max-width: 38.75em) {
+  html {
+    font-size: 50%;
+  }
+
+  .container {
+    flex-direction: column;
+    width: 36rem;
+  }
+}
+
+.attribution {
+  text-align: center;
+}
