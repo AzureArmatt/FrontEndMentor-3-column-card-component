@@ -66,6 +66,7 @@ html {
   background-color: hsl(0, 0%, 95%);
   border-radius: 100px;
   border: hsl(0, 0%, 95%) solid 1px;
+  cursor: pointer;
   transition: all 0.2s;
 }
 
